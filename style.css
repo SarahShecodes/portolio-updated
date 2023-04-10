@@ -10,8 +10,7 @@
 .hero {
   background-color: #4831d4;
   color: white;
-  padding-left: 150px;
-  padding-bottom: 250px;
+  padding-left: 100px;
 }
 
 .hero .job {
@@ -25,4 +24,14 @@
 .hero h3 {
   font-weight: 300;
   font-size: 26px;
+}
+.body {
+  background-color: #ccf381;
+}
+footer {
+  background-color: #ccf381;
+}
+footer h3 {
+  color: #4831d4;
+  font-size: 46px;
 }
