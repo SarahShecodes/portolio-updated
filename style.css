@@ -29,6 +29,12 @@
 .hero img {
   border: 18px solid #ccf381;
 }
+
+section h3 {
+  color: #4831d4;
+  font-size: 46px;
+  padding-top: 40px;
+}
 .body {
   background-color: #ccf381;
 }
