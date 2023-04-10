@@ -70,3 +70,20 @@ footer .social-links a:hover {
 .email-link:hover {
   color: #9a90d8;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding-left: 5px;
+    text-align: center;
+  }
+  .hero .job {
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 66px;
+  }
+  .hero h3 {
+    font-weight: 300;
+    font-size: 18px;
+  }
+}
