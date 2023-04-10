@@ -1,0 +1,28 @@
+.bg-body-custom {
+  background-color: #4831d4;
+}
+.btn-custombtn {
+  background-color: #ccf381;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.hero {
+  background-color: #4831d4;
+  color: white;
+  padding-left: 150px;
+  padding-bottom: 250px;
+}
+
+.hero .job {
+  font-size: 60px;
+  color: #ccf381;
+}
+.hero h2 {
+  font-size: 86px;
+  color: #ccf381;
+}
+.hero h3 {
+  font-weight: 300;
+  font-size: 26px;
+}
