@@ -73,6 +73,10 @@ footer .social-links a:hover {
 
 .content-container {
   background-color: #f4ffe0;
+
+  background-image: url("/src/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 20px;
   color: #4831d4;
   padding: 100px;
@@ -91,6 +95,18 @@ footer .social-links a:hover {
 .content a:hover {
   color: #9a90d8;
 }
+.email-contact,
+.linkedin-contact,
+.phone-contact,
+.resume {
+  background-color: #ecfcd0;
+  opacity: 0.85;
+
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 768px;
+}
 
 @media (max-width: 768px) {
   .hero {
@@ -107,5 +123,16 @@ footer .social-links a:hover {
     font-weight: 300;
     font-size: 18px;
     margin-bottom: 15px;
+  }
+  .email-contact a {
+    font-size: 15px;
+  }
+  .phone-contact h5 {
+    font-size: 15px;
+  }
+  .content-container {
+    background-size: cover;
+
+    padding: 0px;
   }
 }
