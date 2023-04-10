@@ -106,5 +106,6 @@ footer .social-links a:hover {
   .hero h3 {
     font-weight: 300;
     font-size: 18px;
+    margin-bottom: 15px;
   }
 }
