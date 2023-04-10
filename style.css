@@ -18,7 +18,7 @@
   color: #ccf381;
 }
 .hero h2 {
-  font-size: 86px;
+  font-size: 106px;
   color: #ccf381;
 }
 .hero h3 {
@@ -35,11 +35,9 @@ section h3 {
   font-size: 46px;
   padding-top: 40px;
 }
-.body {
-  background-color: #ccf381;
-}
+
 footer {
-  background-color: #ccf381;
+  background-color: #f4ffe0;
 }
 footer h3 {
   color: #4831d4;
@@ -68,6 +66,29 @@ footer .social-links a:hover {
   text-decoration: none;
 }
 .email-link:hover {
+  color: #9a90d8;
+}
+
+/* Contact page*/
+
+.content-container {
+  background-color: #f4ffe0;
+  border-radius: 20px;
+  color: #4831d4;
+  padding: 100px;
+}
+
+.content-container h1 {
+  color: #4831d4;
+}
+.content a {
+  color: #4831d4;
+}
+
+.fa-linkedin {
+  font-size: 50px;
+}
+.content a:hover {
   color: #9a90d8;
 }
 
