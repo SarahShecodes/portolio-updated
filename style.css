@@ -25,6 +25,10 @@
   font-weight: 300;
   font-size: 26px;
 }
+
+.hero img {
+  border: 18px solid #ccf381;
+}
 .body {
   background-color: #ccf381;
 }
@@ -34,4 +38,29 @@ footer {
 footer h3 {
   color: #4831d4;
   font-size: 46px;
+  padding-top: 40px;
+}
+footer p {
+  color: #4831d4;
+  font-size: 20px;
+}
+footer .social-links a {
+  margin: 0 10px;
+  color: #4831d4;
+
+  padding: 10px 15px;
+  font-size: 36px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: #9a90d8;
+}
+.email-link {
+  font-size: 26px;
+  color: #4831d4;
+  text-decoration: none;
+}
+.email-link:hover {
+  color: #9a90d8;
 }
