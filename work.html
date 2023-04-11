@@ -33,7 +33,7 @@
     <title>Portfolio | Work</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-custom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="/" title="Homepage">
           <img src="/src/logolow.png" alt="logo"
@@ -51,25 +51,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" style="color: #ccf381" href="/index.html"
-              >Home</a
-            >
-            <a
-              class="nav-link active"
-              aria-current="page"
-              style="color: #5d8b05"
-              href="/work.html"
+            <a class="nav-link" href="/index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="/work.html"
               >My Work</a
             >
             <a
               class="nav-link"
-              style="color: #ccf381"
               href="https://www.dropbox.com/s/yrbwsk670j2ebvg/resume-2.pdf?dl=0"
               >My Résumé</a
             >
-            <a class="nav-link" style="color: #ccf381" href="/contact.html"
-              >Contact</a
-            >
+            <a class="nav-link" href="/contact.html">Contact</a>
           </div>
         </div>
       </div>
@@ -140,13 +131,83 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <section class="work-projects">
+        <h4>Here are the latest featured projects I worked on</h4>
+        <div class="row">
+          <div class="col d-none d-lg-block">
+            <img
+              src="/src/reactweather.png"
+              alt="weather app"
+              class="img-fluid"
+              width="600px"
+            />
+          </div>
+          <div class="col-sm">
+            <h5>Weather Forecast App</h5>
+            <p>
+              Weather app built with HTML, CSS and React.js that shows 5 days
+              forecast with API
+            </p>
+            <a
+              href="https://international-weather-forecast.netlify.app/"
+              class="btn btn-custombtn btn-lg mb-5"
+              title="Weather Forecast App"
+              target="_blank"
+              >Launch project</a
+            >
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm">
+            <h5>Landing Page</h5>
+            <p>
+              Travel website built with HTML, CSS and embeds (Instagram, Google
+              map)
+            </p>
+            <a
+              href="https://lisbon-travelproject.netlify.app/"
+              class="btn btn-custombtn btn-lg mb-5"
+              title="Lisbon website"
+              target="_blank"
+              >Launch project</a
+            >
+          </div>
+          <div class="col d-none d-lg-block">
+            <img
+              src="/src/travel.png"
+              alt="travel lisbon"
+              class="img-fluid"
+              width="700px"
+            />
+          </div>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col d-none d-lg-block">
+            <img
+              src="/src/dictionary.png"
+              alt="dictionary"
+              class="img-fluid"
+              width="600px"
+            />
+          </div>
+          <div class="col-sm">
+            <h5>Dictionary</h5>
+            <p>
+              Dictionary app built with HTML, CSS and React.js that shows
+              definitions and images of a keyword search with API
+            </p>
+            <a
+              href="https://app-react-dictionary.netlify.app/"
+              class="btn btn-custombtn btn-lg mb-5"
+              title="dictionary"
+              target="_blank"
+              >Launch project</a
+            >
+          </div>
+        </div>
+      </section>
     </div>
-    <section>
-      <h4>Here are the latest featured projects I worked on</h4>
-      <div class="row">
-        <div class="col-sm"></div>
-      </div>
-    </section>
 
     <footer class="text-center mt-5">
       <h3>Work Inquiry <i class="fa-regular fa-envelope"></i></h3>

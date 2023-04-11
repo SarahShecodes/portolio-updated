@@ -5,6 +5,8 @@
   background-color: #ccf381;
   padding: 12px;
   border-radius: 20px;
+  color: #4831d4;
+  font-weight: 600;
 }
 
 .hero {
@@ -55,7 +57,7 @@ footer {
 }
 footer h3 {
   color: #4831d4;
-  font-size: 46px;
+  font-size: 40px;
   padding-top: 40px;
 }
 footer p {
@@ -122,6 +124,27 @@ footer .social-links a:hover {
   padding: 20px;
   margin: 20px auto;
   max-width: 768px;
+}
+
+/* Work page*/
+
+.work-projects h4 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #4831d4;
+  font-size: 42px;
+}
+
+.work-projects h5 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #4831d4;
+  font-size: 38px;
+}
+.work-projects p {
+  color: #4831d4;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
