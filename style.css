@@ -99,8 +99,7 @@ footer .social-links a:hover {
 .linkedin-contact,
 .phone-contact,
 .resume {
-  background-color: #ecfcd0;
-  opacity: 0.85;
+  background-color: rgba(237, 252, 210, 0.4);
 
   border-radius: 10px;
   padding: 20px;
@@ -111,7 +110,7 @@ footer .social-links a:hover {
 @media (max-width: 768px) {
   .hero {
     text-align: center;
-    padding: 5px 8px;
+    padding: 5px 10px;
   }
   .hero .job {
     font-size: 50px;
