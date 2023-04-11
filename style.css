@@ -60,6 +60,9 @@ footer .social-links a {
 footer .social-links a:hover {
   color: #9a90d8;
 }
+.open-sourced {
+  font-size: 13px;
+}
 .email-link {
   font-size: 26px;
   color: #4831d4;
@@ -110,7 +113,7 @@ footer .social-links a:hover {
 @media (max-width: 768px) {
   .hero {
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px 11px;
   }
   .hero .job {
     font-size: 50px;
@@ -133,5 +136,9 @@ footer .social-links a:hover {
     background-size: cover;
 
     padding: 0px;
+  }
+
+  section h3 {
+    font-size: 40px;
   }
 }
